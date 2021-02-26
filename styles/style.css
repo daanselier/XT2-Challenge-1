@@ -1,3 +1,9 @@
 body{
-    background-color: cornsilk;
+    background-color: black;
+    color: white;
+}
+
+#spacexLogo{
+    width: 500px;
+    height: auto;
 }
