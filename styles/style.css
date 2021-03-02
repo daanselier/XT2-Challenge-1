@@ -11,13 +11,18 @@ body{
 
 header{
     margin-left: 3%;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #marsLogo{
     width: auto;
     height: 20px;
     margin: 0;
+}
+
+canvas{
+    max-width: 100%;
 }
 
 .card{
@@ -44,4 +49,49 @@ header{
     margin: 0;
     padding-top: 12px;
     padding-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    header{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
 }
