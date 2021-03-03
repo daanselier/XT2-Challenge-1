@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    margin-left: 3%;
+    margin-left: 4%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -58,6 +58,8 @@ canvas{
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     header{
@@ -69,8 +71,8 @@ canvas{
 @media only screen and (min-width: 1024px) {
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     }
@@ -79,7 +81,7 @@ canvas{
 @media only screen and (min-width: 1280px) {
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
@@ -89,8 +91,8 @@ canvas{
 @media only screen and (min-width: 1920px) {
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     }
