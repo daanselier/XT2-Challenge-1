@@ -1,4 +1,4 @@
-# XT2 Challenge 1
+# XT2 Challenge 1 Daan Selier
  Dashboard voor Space X mensen naar Mars.
  
  Naam: Daan Selier
