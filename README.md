@@ -1,5 +1,5 @@
 # XT2 Challenge 1 Daan Selier
- Dashboard voor Space X mensen onderweg naar Mars.
+ Dashboard voor Space X astronauten onderweg naar Mars.
  
  Naam: Daan Selier
  Studentnummer: 19025041
